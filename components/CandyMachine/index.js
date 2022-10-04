@@ -12,7 +12,7 @@ import {
   getNetworkToken,
   CIVIC,
 } from "./helpers";
-import CountdownTimer from "../CountDownTImer";
+import CountdownTimer from "../CountdownTimer/index";
 
 const { SystemProgram } = web3;
 const opts = {

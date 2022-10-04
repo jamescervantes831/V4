@@ -415,15 +415,18 @@ const CandyMachine = ({ walletAddress }) => {
     candyMachine &&
     candyMachine.state && (
       <div className="machine-container">
+        <img src="GERMZ_PINK.png" className="logo2" />
+        <p className="header">The Germz Invasion</p>
+        <p className="sub-text">Form your alien alliance</p>
         {renderDropTimer()}
-        <p>{`Items Minted: ${candyMachine.state.itemsRedeemed} / ${candyMachine.state.itemsAvailable}`}</p>
+        <p>{`GERMZ Collected: ${candyMachine.state.itemsRedeemed} / ${candyMachine.state.itemsAvailable}`}</p>
         {/* Check to see if these properties are equal! */}
         {candyMachine.state.itemsRedeemed ===
         candyMachine.state.itemsAvailable ? (
           <p className="sub-text">Sold Out 🙊</p>
         ) : (
           <button className="cta-button mint-button" onClick={mintToken}>
-            Mint NFT
+            RECRUIT!
           </button>
         )}
       </div>

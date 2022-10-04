@@ -12,11 +12,7 @@ const Home = () => {
   // Actions
   const renderNotConnectedContainer = () => (
     <div>
-      <img
-        src="https://media.giphy.com/media/eSwGh3YK54JKU/giphy.gif"
-        alt="emoji"
-      />
-
+      <img className="logo" src="GERMZ_INVASION.png" alt="emoji" />
       <div className="button-container">
         <WalletMultiButton className="cta-button connect-wallet-button" />
       </div>
@@ -27,8 +23,6 @@ const Home = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🍭 Candy Drop</p>
-          <p className="sub-text">NFT drop machine with fair mint</p>
           {/* Render your connect to wallet button right here */}
           {wallet.publicKey ? (
             <CandyMachine walletAddress={wallet} />
@@ -40,14 +34,14 @@ const Home = () => {
           <img
             alt="Twitter Logo"
             className="twitter-logo"
-            src="twitter-logo.svg"
+            src="red-twitter-logo.png"
           />
           <a
             className="footer-text"
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`built by @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>

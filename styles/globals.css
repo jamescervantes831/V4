@@ -1,11 +1,4 @@
 @import url("https://use.typekit.net/qro8wcg.css");
-html{
-    background: url('../public/pixelSpaceArt_201.jpeg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 html,
 body {
@@ -17,6 +10,11 @@ body {
     letter-spacing: 3px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: url('/pixelSpaceArt_201.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 a {

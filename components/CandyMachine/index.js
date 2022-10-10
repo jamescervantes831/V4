@@ -426,7 +426,7 @@ const CandyMachine = ({ walletAddress }) => {
           <p className="sub-text">Sold Out 🙊</p>
         ) : (
           <button className="cta-button mint-button" onClick={mintToken}>
-            RECRUIT!
+            ATTACK!
           </button>
         )}
       </div>

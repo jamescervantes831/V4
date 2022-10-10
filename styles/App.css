@@ -54,7 +54,7 @@
 }
 
 .connect-wallet-button {
-    color: white;
+    color: black;
     background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
     background-size: 200% 200%;
     animation: gradient-animation 4s ease infinite;
@@ -153,13 +153,13 @@
 
 @media screen and (min-width: 601px) and (max-width: 800px) {  
     div img.logo2{
-        width: 65%;
+        width: 40%;
     }
     .header{
-        font-size: xx-large;
+        font-size: x-large;
     }
     .sub-text{
-        font-size: x-large;
+        font-size: large;
     }
     .timer-header{
         margin-top: 10px;
@@ -186,15 +186,30 @@
 }
 
 
-@media screen and (min-width:1001px){  
+@media screen and (min-width:1001px) and (max-width: 1600px){  
     div img.logo2{
-        width: 30%;
+        width: 20%;
     }
     .header{
-        font-size: x-large;
+        font-size: large;
     }
     .sub-text{
-        font-size:large;
+        font-size:medium;
+    }
+    .machine-container{
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1601px){
+    div img.logo2{
+        width: 25%;
+    }
+    .header{
+        font-size: xx-large;
+    }
+    .sub-text{
+        font-size:x-large;
     }
     .machine-container{
         align-items: center;

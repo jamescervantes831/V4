@@ -63,11 +63,33 @@
     }
     
     .timer-container .timer-value {
-        font-size: 18px;
+        font-size: 12px;
     }
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {  
+    .timer-container .timer-header {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .timer-container .timer-value {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {  
+    .timer-container .timer-header {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .timer-container .timer-value {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width: 1000px) {  
     .timer-container .timer-header {
         font-size: 15px;
         font-weight: bold;
@@ -78,18 +100,19 @@
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 800px) {  
+
+@media screen and (min-width:1001px) and (max-width: 1600px){  
     .timer-container .timer-header {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
     }
     
     .timer-container .timer-value {
-        font-size: 25px;
+        font-size: 23px;
     }
 }
 
-@media screen and (min-width:801px) and (max-width: 1000px) {  
+@media screen and (min-width: 1601px){
     .timer-container .timer-header {
         font-size: 30px;
         font-weight: bold;
@@ -97,17 +120,5 @@
     
     .timer-container .timer-value {
         font-size: 35px;
-    }
-}
-
-
-@media screen and (min-width:1001px){  
-    .timer-container .timer-header {
-        font-size: 15px;
-        font-weight: bold;
-    }
-    
-    .timer-container .timer-value {
-        font-size: 25px;
     }
 }

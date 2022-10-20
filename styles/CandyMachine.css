@@ -24,7 +24,25 @@
 
 .timer-container .timer-value {
     font-size: 18px;
+    
 }
+
+#commenced{
+    font-size: 15px;
+    animation: blinker 1s linear infinite;
+
+}
+@keyframes blinker {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        color: red;
+    }
+    100%{
+        color: red;
+    }
+  }
 
 @media screen and (max-width: 299px) {  
 

@@ -92,6 +92,10 @@
     color: #E74C3C;
 }
 
+.footer-text:hover{
+    color: black;
+}
+
 .connected-container input[type="text"] {
     display: inline-block;
     padding: 10px;
@@ -131,6 +135,14 @@
     .twitter-logo{
         margin: 0;
     }
+    #conquerer{
+        color: red;
+        opacity: 75%;
+        font-size: 10px;
+    }
+    .incentive-text{
+        font-size: 8px;
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {  
@@ -148,6 +160,14 @@
     }
     .machine-container{
         align-items: center;
+    }
+    #conquerer{
+        color: red;
+        opacity: 75%;
+        font-size: 15px;
+    }
+    .incentive-text{
+        font-size: 12px;
     }
 }
 
@@ -167,6 +187,14 @@
     .machine-container{
         align-items: center;
     }
+    #conquerer{
+        color: red;
+        opacity: 75%;
+        font-size: 18px;
+    }
+    .incentive-text{
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width:801px) and (max-width: 1000px) {  
@@ -182,6 +210,14 @@
     
     .machine-container{
         align-items: center;
+    }
+    #conquerer{
+        color: red;
+        opacity: 75%;
+        font-size: 20px;
+    }
+    .incentive-text{
+        font-size: 15px;
     }
 }
 
@@ -199,6 +235,14 @@
     .machine-container{
         align-items: center;
     }
+    #conquerer{
+        color: red;
+        opacity: 75%;
+        font-size: 18px;
+    }
+    .incentive-text{
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 1601px){
@@ -213,6 +257,14 @@
     }
     .machine-container{
         align-items: center;
+    }
+    #conquerer{
+        color: red;
+        opacity: 75%;
+        font-size: 35px;
+    }
+    .incentive-text{
+        font-size: 30px;
     }
 }
 

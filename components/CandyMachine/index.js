@@ -418,6 +418,7 @@ const CandyMachine = ({ walletAddress }) => {
         <img src="GERMZ_PINK.png" className="logo2" />
         <p className="header">The Germz Invasion</p>
         <p className="sub-text">Form your alien alliance</p>
+        <p className="incentive-text">Defeating <strong id="conquerer">two CONQUERERS</strong> <br/>will unlock NFT LA VIP Tickets</p>
         {renderDropTimer()}
         <p>{`GERMZ Collected: ${candyMachine.state.itemsRedeemed} / ${candyMachine.state.itemsAvailable}`}</p>
         {/* Check to see if these properties are equal! */}
